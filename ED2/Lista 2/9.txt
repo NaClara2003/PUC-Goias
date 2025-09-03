@@ -1,0 +1,4 @@
+//Alunos: Gustavo Rocha e Ana CLara Nery e Mello Figueiredo
+
+Saída esperada: Ana tem 25 anos
+Explicação: O operador -> é usado para acessar membros de uma estrutura através de um ponteiro. 

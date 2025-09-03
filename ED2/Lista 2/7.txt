@@ -1,0 +1,20 @@
+//Alunos: Gustavo Rocha e Ana CLara Nery e Mello Figueiredo
+
+O código não compila devido a seguinte linha:
+    p1.nome = "Carlos"; // tentativa de atribuicao
+Isso acontece, porque quando se usa char é necessário copiar os dados elemento por elemento ou usar uma função como strcpy.
+
+Correção:
+#include <stdio.h>
+#include <string.h>
+
+struct Pessoa {
+    char nome[20];
+};
+
+int main(void) {
+    struct Pessoa p1;
+    strcpy(p1.nome, "Carlos"); // atribuição correta
+    printf("%s\n", p1.nome);
+    return 0;
+}

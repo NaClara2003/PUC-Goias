@@ -1,0 +1,7 @@
+//Alunos: Gustavo Rocha e Ana CLara Nery e Mello Figueiredo
+
+Saída esperada:Depois de f1: 5  
+               Depois de f2: 15
+Explicação:
+Por valor - f1(x): A função trabalha com uma cópia da variável. Alterações não afetam o original.
+Por referência - f2(&x): A função trabalha com o endereço da variável. Alterações afetam diretamente o valor original.

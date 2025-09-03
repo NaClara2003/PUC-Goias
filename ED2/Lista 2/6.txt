@@ -1,0 +1,4 @@
+//Alunos: Gustavo Rocha e Ana CLara Nery e Mello Figueiredo
+
+Saída esperada: 15
+Explicação: O ponteiro p aponta para a variável x, então na expressão *p = *p + 10 estamos acessando o valor de x através do ponteiro e somando 10 a ele.

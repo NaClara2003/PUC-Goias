@@ -1,0 +1,4 @@
+//Alunos: Gustavo Rocha e Ana CLara Nery e Mello Figueiredo
+
+Saída esperada: 20  20  20
+Explicação: Os valores impressos são iguais porque todos acessam o segundo elemento do vetor v, que é 20.
